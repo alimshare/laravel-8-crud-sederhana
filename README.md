@@ -8,7 +8,7 @@
 - Ambil seluruh data
 - Database Migration
 
-## Cara Install
+## Cara Menjalankan Project ini
 
 Pastikan `composer` sudah terinstall di komputer anda
 
@@ -16,4 +16,6 @@ Pastikan `composer` sudah terinstall di komputer anda
 2. cd laravel-8-crud-sederhana
 3. composer install
 4. isi konfigurasi database di file `.env` 
-5. 
+5. php artisan migrate
+6. php artisan serve
+
